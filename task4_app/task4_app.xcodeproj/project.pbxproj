@@ -13,6 +13,9 @@
 		638120D72AA3E3D200FE7352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638120D62AA3E3D200FE7352 /* Assets.xcassets */; };
 		638120DA2AA3E3D200FE7352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638120D82AA3E3D200FE7352 /* LaunchScreen.storyboard */; };
 		638120E22AA3E8BA00FE7352 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638120E12AA3E8BA00FE7352 /* Extension.swift */; };
+		638120E82AA3F07D00FE7352 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638120E72AA3F07D00FE7352 /* WeatherManager.swift */; };
+		638120EA2AA3F09500FE7352 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638120E92AA3F09500FE7352 /* WeatherData.swift */; };
+		638120EC2AA3F09E00FE7352 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638120EB2AA3F09E00FE7352 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		638120D92AA3E3D200FE7352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638120DB2AA3E3D200FE7352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		638120E12AA3E8BA00FE7352 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		638120E72AA3F07D00FE7352 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		638120E92AA3F09500FE7352 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		638120EB2AA3F09E00FE7352 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				638120CD2AA3E3D000FE7352 /* AppDelegate.swift */,
 				638120CF2AA3E3D000FE7352 /* SceneDelegate.swift */,
-				638120D12AA3E3D000FE7352 /* ViewController.swift */,
-				638120D62AA3E3D200FE7352 /* Assets.xcassets */,
-				638120D82AA3E3D200FE7352 /* LaunchScreen.storyboard */,
+				638120E62AA3F03C00FE7352 /* Model */,
+				638120E32AA3EFF500FE7352 /* Controller */,
+				638120E52AA3F01D00FE7352 /* Files */,
 				638120DB2AA3E3D200FE7352 /* Info.plist */,
 				638120E12AA3E8BA00FE7352 /* Extension.swift */,
 			);
 			path = task4_app;
+			sourceTree = "<group>";
+		};
+		638120E32AA3EFF500FE7352 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				638120D12AA3E3D000FE7352 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		638120E52AA3F01D00FE7352 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				638120D62AA3E3D200FE7352 /* Assets.xcassets */,
+				638120D82AA3E3D200FE7352 /* LaunchScreen.storyboard */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		638120E62AA3F03C00FE7352 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				638120E72AA3F07D00FE7352 /* WeatherManager.swift */,
+				638120E92AA3F09500FE7352 /* WeatherData.swift */,
+				638120EB2AA3F09E00FE7352 /* WeatherModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +172,10 @@
 			files = (
 				638120D22AA3E3D000FE7352 /* ViewController.swift in Sources */,
 				638120CE2AA3E3D000FE7352 /* AppDelegate.swift in Sources */,
+				638120E82AA3F07D00FE7352 /* WeatherManager.swift in Sources */,
+				638120EC2AA3F09E00FE7352 /* WeatherModel.swift in Sources */,
 				638120D02AA3E3D000FE7352 /* SceneDelegate.swift in Sources */,
+				638120EA2AA3F09500FE7352 /* WeatherData.swift in Sources */,
 				638120E22AA3E8BA00FE7352 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
